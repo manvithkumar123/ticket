@@ -1,0 +1,112 @@
+.mainbg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    
+}
+.mainbg .text_container{
+    margin-top: 30px;
+}
+.logo{
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    justify-self: center;
+    margin-top: 20px;
+    align-self: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-bg{
+    height: 125px;
+    width: 460px;
+    border: 2px dotted gray;
+    border-radius: 20px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.input-bg h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.input-bg img{
+    height: 50px;
+    width: 50px;
+    justify-self: center;
+    align-self: center;
+}
+.container h5{
+    display: inline-flex;
+    margin: 5px;
+}
+.upload-info{
+    margin-left: 10px;
+}
+.details{
+    padding: 0 0 0 10px;
+}
+.details input{
+    height: 35px;
+    margin-top: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 460px;
+}
+.details input:focus{
+    border: none;
+}
+.details h4{
+    margin-top: 10px;
+}
+.submit{
+    width: 460px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+.submit button{
+    border-radius: 10px;
+    background-color: rgb(240, 92, 82);
+    width: 460px;
+}
+.preview-image{
+    margin-top: 20px;
+}
+.details input:hover{
+    background-color: rgb(41, 38, 64);
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        width: 90vw;
+        padding-left: 0;
+    }
+    .input-bg{
+        width: 90vw;
+    }
+    .details input{
+        width: 80vw;
+    }
+    .submit button{
+        width: 80vw;
+        justify-self: center;
+        align-self: center;
+    }
+    .submit{
+        width: 80vw;
+    }
+}

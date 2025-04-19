@@ -1,0 +1,53 @@
+.mainbg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    
+}
+.logo{
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+.mainbg .text_container{
+    margin-top: 70px;
+}
+.ticket{
+    justify-self: center;
+    align-self: center;
+    margin-top: 30px;
+    background-size: co;
+}
+.textcontainer3{
+    height: 250px;
+    display: flex;
+    width: 490px;
+    padding-left: 10px;
+    margin-top: -270px;
+}
+#small_logo{
+    height: 50px;
+    border-radius: 10px;
+    width: 50px;
+}
+.textcontainer3 h2{
+    margin-left: 20px;
+}
+.para p{
+    margin-left: 30px;
+}
+.name{
+    margin-top: auto;
+    display: flex;
+    margin-left: -250px;
+}
+#icon{
+    height: 50px;
+    width: 50px;
+}
+.info{
+    margin-left: 10px;
+}
