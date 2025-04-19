@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';  // Ensure this is added
 
-// https://vite.dev/config/
+// Export the configuration
 export default defineConfig({
-  plugins: [react()],
-})
+  base: '/ticket',  // Base URL for GitHub Pages
+  plugins: [react()],  // Use the react plugin
+});

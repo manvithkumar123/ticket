@@ -4,7 +4,7 @@ import Ticket from "./components/ticket/Ticket"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ticket">
       <Routes>
         <Route path="/" element={<Mainpage />} />
         <Route path="/success" element={< Ticket/>} />

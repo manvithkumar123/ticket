@@ -1,6 +1,5 @@
 {
   "homepage": "https://manvithkumar123.github.io/ticket",
-
   "name": "ticket",
   "private": true,
   "version": "0.0.0",
@@ -12,8 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
-
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -24,7 +21,7 @@
     "@eslint/js": "^9.22.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^4.4.0",
+    "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.22.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
